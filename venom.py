@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = 'TOKEN'
-ADMIN_ID = 'YOUR ID'
+API_TOKEN = '7424431584:AAFGQTVWjx40yUT6kzMx1ppfmuvw2Gyvplg'
+ADMIN_ID = '6218359483'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
@@ -42,7 +42,7 @@ async def main():
 
         logging.info("Starting the bot...")
         process = start_bot()
-        await notify_admin("🚀 Bot is starting...")
+        await notify_admin("🚀 Bot is starting...neha")
 
         while process.poll() is None:
             await asyncio.sleep(5)
